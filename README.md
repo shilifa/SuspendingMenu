@@ -1,7 +1,8 @@
 # SuspendingMenu
 a control that show and hide suspending menu
 
-##使用
+## 使用
+
  NSArray *menuArray = @[
                            @[@"共享",@"publicShare"],
                            @[@"足迹",@"footprint"],
