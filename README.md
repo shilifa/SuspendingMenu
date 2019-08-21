@@ -9,9 +9,9 @@ a control that show and hide suspending menu
                            @[@"足迹",@"footprint"],
                            @[@"轨迹",@"trail"],
                            ];
-    SuspendedMenu *menuView = [[SuspendedMenu alloc] initViewWithFrame:CGRectMake(20, 20, 55, 55) MenuArray:menuArray];
-    menuView.menuDelegate = self;
-    menuView.defaultMenuImage = [UIImage imageNamed:@"caidan"];
-    [self.view addSubview:menuView];
+    SuspendedMenu *menuView = [[SuspendedMenu alloc] initViewWithFrame:CGRectMake(20, 20, 55, 55) MenuArray:menuArray];  
+    menuView.menuDelegate = self;  
+    menuView.defaultMenuImage = [UIImage imageNamed:@"caidan"];  
+    [self.view addSubview:menuView];  
     [self.view bringSubviewToFront:menuView]; `
     
